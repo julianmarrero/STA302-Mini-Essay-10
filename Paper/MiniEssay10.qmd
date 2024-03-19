@@ -59,6 +59,6 @@ Negative binomial regression is a more flexible alternative to Poisson regressio
 
 In my R script `01-model_estimation.R`, I used Poisson regression due to its fit of the dataset. However, I checked the dataset for overdispersion using the declared variable `dispersion_param` to assess the adequacy of the Poisson model for the given data by checking for overdispersion. If the dispersion parameter is significantly greater than 1, then I would consider using negative binomial regression.
 
-/newpage
+\newpage
 
 # References
